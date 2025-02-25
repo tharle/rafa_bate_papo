@@ -1,4 +1,4 @@
-/*var http = require('http');
+var http = require('http');
 
 http.createServer(function (req, res) {
 	res.writeHead(200, {'Content-Type': 'text/html'});
@@ -9,11 +9,4 @@ http.createServer(function (req, res) {
 	var i = Math.floor(Math.random() * mensagens.length);
 	console.log(i)
 	res.end(mensagens[i]);
-}).listen(8080);*/
-const mensagens = [
-	"Cu cu cu", 
-	"Quero me mamar", 
-	"Cuceta!"
-]
-var i = Math.floor(Math.random() * mensagens.length)
-document.getElementById("result").innerHTML = mensagens[i]
+}).listen(1337, "localhost");
