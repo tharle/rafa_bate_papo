@@ -25,7 +25,7 @@ exports.handler = async function (event, context) {
 "ta viado, vai, mata o aliza e a teta com um wurmple ent desgraça • pepfefeusson • 12/19/2024 • ",
 "'como abbortar com 27 anos' • pepfefeusson • 12/19/2024 • ",
 "posso ir ao banheiro [plateia desenvolve um buraco negro de tanto rir] • ciroel • 12/5/2024 • ",
-" português fumante: vou fmar um sgarro • pepfefeusson • 12/2/2024 • "
+" português fumante: vou fmar um sgarro • pepfefeusson • 12/2/2024 • ",
 "chupa minha cuce <3 inha aqui ó • vickthehuman • 11/29/2024 • ",
  "xoxo <3 a • vickthehuman • 11/29/2024 • ",
  "brasileiras batem tchecas na final do volei de praia • pepfefeusson • 11/29/2024 • ",
