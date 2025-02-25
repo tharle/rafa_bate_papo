@@ -10,5 +10,8 @@
 				"Cuceta!"
 			]
 			var i = Math.floor(Math.random() * mensagens.length)
-			document.getElementById("result").innerHTML = mensagens[i]
+			/*document.getElementById("result").innerHTML = mensagens[i]*/
+			const blob = new Blob([mensagens[i]], {type: 'text/plain'});
+		    const url = URL.createObjectURL(blob);
+		    window.open(url, '_self');
 		</script>
