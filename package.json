@@ -1,8 +1,27 @@
 {
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/tharle/rafa_bate_papo#readme",
+  "bugs": {
+    "url": "https://github.com/tharle/rafa_bate_papo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tharle/rafa_bate_papo.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "@netlify/functions": "^3.0.0",
     "@types/express": "^5.0.0",
     "express": "^4.21.2",
     "serverless-http": "^3.2.0"
-  }
+  },
+  "devDependencies": {}
 }
