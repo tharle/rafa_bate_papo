@@ -1,4 +1,4 @@
-var http = require('http');
+/*var http = require('http');
 
 http.createServer(function (req, res) {
 	res.writeHead(200, {'Content-Type': 'text/html'});
@@ -9,4 +9,16 @@ http.createServer(function (req, res) {
 	var i = Math.floor(Math.random() * mensagens.length);
 	console.log(i)
 	res.end(mensagens[i]);
-}).listen(1337, "localhost");
+}).listen(1337);*/
+
+const express = require('express')
+const app = express()
+const port = 3000
+
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
+
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+})
