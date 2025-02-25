@@ -130,7 +130,7 @@ exports.handler = async function (event, context) {
 "Agora um mico: leão dourado • ciroel • 3/4/2024 • ",
 "Agora um mico: leão dourado • pepfefeusson • 3/4/2024 • ",
 "encontrando o ponto g do peido braçal • pepfefeusson • 3/4/2024 • ",
-"depois de uma noite de ██████ e conversa com colegas da faculdade, eu anotei no google keep "Henry Ford = Tom Nook", e eu NAO LEMBRO quala reflexão que eu tive pra "fazer essa correlação • pepfefeusson • 3/4/2024 • ",
+"depois de uma noite de ██████ e conversa com colegas da faculdade, eu anotei no google keep 'Henry Ford = Tom Nook', e eu NAO LEMBRO quala reflexão que eu tive pra 'fazer essa correlação' • pepfefeusson • 3/4/2024 • ",
 "daí sla, o lula, o mandela, o tom nook e o long man • ciroel • 3/4/2024 • ",
 "eu na moleira do nenê (faz crec) • pepfefeusson • 3/4/2024 • ",
 "SEIOS • ciroel • 3/4/2024 • ",
