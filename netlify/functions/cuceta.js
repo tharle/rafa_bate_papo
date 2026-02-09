@@ -1,5 +1,5 @@
 exports.handler = async function (event, context) {
-    const mensagens = [
+        const mensagens = [
 "ameaçou te engravidar • ciroel • 09/02/2026",
 "ideia de drink: wd40 com jimo quente • ciroel • 08/02/2026",
 "choro de puta Deus nao escuta • ciroel • 08/02/2026",
@@ -31,7 +31,7 @@ exports.handler = async function (event, context) {
 "olá vique, nao pude não reparar em quão rosinha é a beirada do teu cuzinho • pepfefeusson • 28/08/2025",
 "MEU GRELINHO DE DIAMANTE • pepfefeusson • 27/08/2025",
 "ó o bigodão de varrer sereca • pepfefeusson • 27/08/2025",
-"eu consigo piscar o cu e o pau separadamente • vickthehuman • 28/07/2025"
+"eu consigo piscar o cu e o pau separadamente • vickthehuman • 28/07/2025",
 "eu quero uma camisinha sabor ciroel • pepfefeusson • 23/07/2025",
 "Visão geral criada por IA 18 de janeiro de 2024 foi uma quinta-feira. EU QUASE MANDEI ISSO pra minha professora socorro • pepfefeusson • 23/07/2025",
 "em uma linha de comando ativa o vibrador que ta no cu do leo agora • pepfefeusson • 23/07/2025",
