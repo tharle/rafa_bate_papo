@@ -29,6 +29,10 @@ exports.handler = async function (event, context) {
 			if (error) throw error;
 			console.log('Query results:', results);
 		});
+	  	
+	  	// Close the connection when done
+		connection.end(); 
+	});
 
 
     return {
