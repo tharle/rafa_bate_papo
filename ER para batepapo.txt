@@ -1,2 +1,607 @@
 "(.*)"\n.*\n(.*).*\n.*\n.*\n(.*)\n.*\n.*\n
-"\1 • \2 • \3",\n
+"\1 • \2 •\3",\n
+
+// 1. ciroel 2. pepfefeusson 3. vickthehuman 4. Estileto
+
+INSERT INTO tb_mods (nome) VALUES ('ciroel');
+INSERT INTO tb_mods (nome) VALUES ('pepfefeusson');
+INSERT INTO tb_mods (nome) VALUES ('vickthehuman');
+INSERT INTO tb_mods (nome) VALUES ('Estileto');
+
+SELECT id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson')
+
+
+
+// ALL INSERTS 
+
+"(.+) • (.+) • (.+)/(.+)/(.+)•*"
+
+BEGIN;
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'ameaçou te engravidar', '2026\02\09', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');;
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'ideia de drink: wd40 com jimo quente', '2026\02\08', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');;
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'choro de puta Deus nao escuta', '2026\02\08', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'leo tu ja pode tirar cnh', '2026\02\08', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'tche, eu to sem acreditar, sério', '2026\02\08', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'esse eu só sou transfóbico mesmo', '2026\02\06', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'eu vou ter um abc', '2026\02\06', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'eu fodo com o Sopêncio', '2026\02\02', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'ai ssssss, meteu o movimento preliminar de boquete', '2025\12\25', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'lembrei de uma coisa que eu lembrei esses dias:', '2025\12\25', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'OI, meu nome é Lorena, tenho 15 anos, teria, se tivesse viva. Nasci em Foz do Iguaçu, Paraná', '2025\12\15', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'sabe quem mais morde a cabeça no boquete?', '2025\12\09', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'faz SCHLUPT no tentaculo', '2025\12\05', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'Pessoa: sou trans / Sociedade: ok / Casa Inteligente: Seu punhetron está preparado, senhor', '2025\12\05', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'mecanismo de defesa: o Papinhos Undertale vai te comer na porrada', '2025\12\04', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'colocando estrogênio na comida do Salandit pq eu não admito que ele não evolua', '2025\11\10', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'ótymo, espera só até eles conhecerem o valor de um cunete', '2025\10\28', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'MEU OVO COMEU MEU PRENSADO', '2025\10\28', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'todo mundo é gangsta até o espeta-mamilo chegar na cidade', '2025\10\13', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'eu quero que você MORRA e que minha teta CRESÇA', '2025\10\08', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'OOPSIE *te esfaqueia* OOPSIE *te esfaqueia* OOPSIE *te esfaqueia* OOPSIE *te esfaqueia* OOPSIE *te esfaqueia*', '2025\10\08', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'o cara de roxo todo cuntylissious dick smasher ride', '2025\09\15', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'espero que a gente chegue no óvulo logo: meu mano, a gente ta num SUVACO', '2025\09\10', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT '"ser banido 7 vezes em Estileto" é o equivalente de "CRIMONOSO DE GUERRA ESQUARTEJADOR ESTELIONATÁRIO de Não-Me-Toque/RS"', '2025\09\10', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'eu nao posso deixar de apoiar e achar cuntylicious um viadinho pardo invadindo um instituto burguês criminoso #anarcoqueer', '2025\09\05', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'esse mini goblin nao tankaria UMA sentada dessa ovona', '2025\09\05', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'PaU QUE NaSCE tORtO, EILaND FaZENDO DRIFt', '2025\09\04', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'o cu assim *', '2025\09\01', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'olá vique, nao pude não reparar em quão rosinha é a beirada do teu cuzinho', '2025\08\28', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'MEU GRELINHO DE DIAMANTE', '2025\08\27', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'ó o bigodão de varrer sereca', '2025\08\27', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'eu consigo piscar o cu e o pau separadamente', '2025\07\28', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('vickthehuman');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'eu quero uma camisinha sabor ciroel', '2025\07\23', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'Visão geral criada por IA 18 de janeiro de 2024 foi uma quinta-feira. EU QUASE MANDEI ISSO pra minha professora socorro', '2025\07\23', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'em uma linha de comando ativa o vibrador que ta no cu do leo agora', '2025\07\23', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'eu NAO SEIE XATAMENTE', '2025\07\23', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'aquele gif da beyoncé usando sand attack', '2025\07\22', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'vai tomar no cu de todos vocês', '2025\07\22', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'sem querer, eu pisei no teclado', '2025\07\22', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'sulista, furry, homossexual e nog', '2025\07\18', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'odeio quando EU sou a vítima do gaslight', '2025\07\09', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'vai servir muito cunt sim bb', '2025\07\09', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'eu queri m t um teclado', '2025\07\01 20:28', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'amanha o trans undertale vai soltar um pronome', '2025\07\01 18:11', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'Cometi um ato infracional qndo eu era menor de idade (mordi no boquete)', '2025\06\21 23:41', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'Me mijei', '2025\06\21 23:27', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'pokemon mas a cada insignia, minha calcinha fica mais fio dental', '2025\06\20 20:38', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT ' pq fury é uma construçao social', '2025\06\18 22:34', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'britney', '2025\06\18 21:41', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT '@pepfefeusson me da um ban 16/04/2026', '2025\06\18 20:36', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'compartilhei teu perfil num grupo de "tetudas de Poa" ', '2025\06\18 19:06', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'As três instituições, igreja, Estado, FurCon', '2025\06\12 01:51', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'Um cachorro acabou de tossir pra mim na rua', '2025\06\05 14:33', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'to bem, tava ouvindo splotnik', '2025\06\04 21:56', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'AH MEU privatizaram o oceano atlântico', '2025\06\04 21:15', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'ralsei se revelando ser uma air fryer de duas gaveta', '2025\06\04 19:02', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'com fé, jogo JRPG e dou meu cu', '2025\05\30 23:29', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'CU DE HOMEEEEEEEEEEEEEEM', '2025\05\30 23:23', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'ja dizia aquele repórter, Ai ai [raio][uva]', '2025\05\27 20:29', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'bate numa criança aí', '2025\05\12 21:50', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'KARAOKE PVP', '2025\05\01 20:54', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'NENÊ É CENTRISTA', '2025\04\28 18:27', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'Ainn, Rolãopago Marquinhos, mete marcha 5', '2025\04\24 14:56', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'vao assistir Brasileirinhas IV: Revenge of Pornstar', '2025\04\22 16:38', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'MLK VO NAISCER', '2025\04\22 16:14', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT '[crab$$] ola eu gosto de GeForce RTX 5070 Ti 16G Ventus 3X OC', '2025\04\18 21:57', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'TEM MOSQUITO NA CASA DELE', '2025\04\18 21:13', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'boceta tão gorda chega fazer cloc quando senta', '2025\04\18 21:09', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT '"bom banho" *vick rola o D20 e cai 1* *estoura o chuveiro', '2025\04\18 20:56', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'ouvi "anotado" esfriou minha espinha, achei que era cmg', '2025\04\18 18:56', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'o foquista com a OLED 8K do lado pra ver se consegue ver cada gota de porra e suor da pica entrando na vagina', '2025\04\16 22:34', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'dps de 12 meses de sub chega um qr code pra um grupo de TF2 do Stel na tua casa via correio', '2025\04\16 21:12', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'abraço, gabriel', '2025\04\16 20:50', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'aprendi como desbloqueia a rose', '2025\04\16 20:42', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'DANSA ZOMMERZINHO DANSA', '2025\04\11 21:00', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('vickthehuman');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'essa porra vai ser tipo grama e tubérculo', '2025\04\11 18:43', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'eu juro leo, teu rosto ta entrando no meu cerebro igual estático da gretchen', '2025\03\25 21:30', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'e o meu cucetãaao', '2025\03\18 18:01', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'eu vo dar meu cuuuu', '2025\03\18 18:01', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'o pastel usou mirror coat mano', '2025\03\17 20:39', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'Shield Cancel de Buceta', '2025\03\17 20:36', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'IR NO MOTEL DA XUXA FAZER XIXI DO CHAO DA SALA', '2025\03\04 18:04', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('Estileto');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'Períneo lisinho igual um sapo', '2025\02\27 18:31', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT ' dentro de ti tem dois lobos um é gay o outro tb', '2025\02\26 19:26', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'próximo pokemon vai ser baseado em Agudo - RS', '2025\02\26 19:18', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'GAME THEROY: Gardevoir is Parda???', '2023\11\23', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'btw, é incrivel o quão real é a teoria de "quanto mais ao norte o gaúcho viaja, mais ele encontra argentino no caminho" ', '2025\2\15', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT '*tecnica da toranja*', '2025\1\31', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'psicologia por osmose', '2025\1\31', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'eu acho que tu NAO quer falar desse assunto', '2025\1\31', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'Atenas antiga assim:', '2025\1\31', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'segredos de mulher', '2025\1\31', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'consigo vencer pokemon emerald apenas com meu afilhado de 2 anos??', '2025\1\27', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'Lairon José', '2025\1\27', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'MANDOU UM QUÉCIO', '2025\1\24', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'e digamos que tu ganhe um magikarp no jogo do bicho', '2025\1\24', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'OW, santos dummont mecha com a 14 bis', '2025\1\17', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'mastigarei teus fones de ouvido', '2025\1\17', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'o fandon do grind está morrendo, retweete se você é um Grinder também', '2025\1\14', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('vickthehuman');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'manda audio peidando', '2025\1\9', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'anota apenas este', '2025\1\2', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'se for praia do arrombado de novo', '2025\1\2', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'controle de n64 hetero cis', '2025\1\2', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'Eu nao acredito que o teu poder de voto é o mesmo que o meu', '2024\12\25', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'ciroel <3 LULA 13', '2024\12\25', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'yooka laylee tem uma personagem mulher geladeira que eu chamo de "Sheiladeira" e eu me cago rindo me achando o apogeu do humor', '2024\12\23', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'A terra é esfera', '2024\12\20', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'ta viado, vai, mata o aliza e a teta com um wurmple ent desgraça', '2024\12\19', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'como abbortar com 27 anos', '2024\12\19', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'posso ir ao banheiro [plateia desenvolve um buraco negro de tanto rir]', '2024\12\5', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT ' português fumante: vou fmar um sgarro', '2024\12\2', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'chupa minha cuce <3 inha aqui ó', '2024\11\29', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('vickthehuman');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'xoxo <3 a', '2024\11\29', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('vickthehuman');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'brasileiras batem tchecas na final do volei de praia', '2024\11\29', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'Tags: et bilu, sexo, fisting', '2024\11\29', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'eu sorreio das minhas proprias piadas se nao ngm vai', '2024\11\29', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'Carapicuíba - SP', '2024\11\28', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'manda o "tudo que vai volta, taca a buceta que eu taco a piroca"', '2024\11\26', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'cadê a mona?? cade elah????', '2024\11\22', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT '-morador de Pelotad', '2024\11\22', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT '@mods banam "Rafael" ', '2024\11\8', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'eu joguei guacamelee em espanhol e o super soco do jogo se chamava Puñetazo', '2024\11\8', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'when you are comendo a pastel and there`s um ovo cortado na metade no meio', '2024\11\5', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'minha nossa cenoura', '2024\10\28', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'amo sorvete napolitano, o creme com gosto de fronha, o morango com gosto de axila, o chocolate com gosto de sebo', '2024\10\22', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'joguei um ímã no meu café sem querer', '2024\10\21', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'meu nome é cuceTinha e eu Tenho uma cuceTa', '2024\10\15', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'CUCETORONTE', '2024\10\15', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'eu assinei amazon prime sem querer', '2024\10\15', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'deu bocejinho, Tem que dar o cuzinho', '2024\10\6', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'meu cerebro Ta fazendo o cu piscando', '2024\10\6', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'pepfefeusson: "o assopra cu" sRaffaello: "ja..... me..... fizeram" ', '2024\10\6', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'ja..... me..... fizeram', '2024\10\6', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'para, eu To proibido de realizar sucção', '2024\10\6', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'eu gosTo de comer o esTrelinha games enquanTo eu vejo', '2024\10\6', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'a cara do bonnie ali na esquerda fazendo um "UAU, isso nao é uma xoxota, é uma showxota, vc ta de parabéns" ', '2024\10\5', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'como eu queria estar, peituda e morta', '2024\10\1', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'comer lentilha e cu', '2024\10\1', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'Como poe camisinha', '2024\9\27', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT '@pepfefeusson mas eu sou o viado games', '2024\9\26', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT ' "Evan" is the ideal gender neutral name. Because it could be short for "Evangelion" (boy name), or it could be short for "Evanescence" (girl name)', '2024\9\25', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'Fui chamado de coringa pelo rapper do trem, melhor que a última vez que ele me chamou de cabeça de alface', '2024\9\20', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'fazendo arquiteturashaming', '2024\9\4', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'infelizmente vai se aposentar a professora do meu departamento que em determinada aula de geotecnologia fazia doxxing de todos na sala numa atividade', '2024\9\4', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'ia o bolsonaro na casa do N dar aula de educação fisica pra ele', '2024\9\4', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT '#paipresente', '2024\8\16', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'tua casa tetm mosquitto?', '2024\8\16', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'eu iniciei um curso de espanhol da faculdade e eu fiquei com vergonha de dizer q minha experiencia em espanhol era flertar com mexicano', '2024\8\12', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'meu povo o cuscuz ta OOOAAAHN', '2024\8\12', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'eu acho que ttu ta sendo mt transfóbico', '2024\8\7', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'OFICINA DE BOQUETE PARAFUSO CLICA AQUI apoia.se/stel', '2024\8\6', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'metade disso nem é cidade, é distúrbio mental', '2024\8\5', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT ' ky de menta', '2024\8\5', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'SHIBARI, BDSM, ARTE, PUNK, SONIC, RPG, ARTPOP, CAOS, NEON, WALUIGI, QUEER, AGÊNERO, TF2, SODOMIA, SATÃ, VÍRUS, MACHINARIUM, COURO, XXX, LUA, PLUTÃO, LSD, UGLY SEASON, DOOM, SEGA, PQP!', '2024\7\25', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'toadofsky do caralho', '2024\7\17', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'oi gente', '2024\7\16', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'próximo que comentar é viado', '2024\7\16', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'abre na camera maior pra gentte ouvir melhor', '2024\7\3', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT ' "smt" "eu ja vi a speedrun" ', '2024\7\2', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'cu de idosa memes', '2024\6\18', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT '@pepfefeusson @pepfefeusson @pepfefeusson tu tem um ódio tão genuíno por mim', '2024\6\17', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT '@ciroel celeste ou agencia banrisul', '2024\6\13', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'AI É NIVER DA minha amiga, esqueci', '2024\6\12', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'eu fazendo batalha de rap cmg no espelho [nota do editor: o stel começou cantar musica do capital inicial]', '2024\6\11', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'manda pro roberto "e o cuzinho, ja deu hj?" ', '2024\6\5', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'escola sem partido', '2024\5\31', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'imagina perder o pé dentro do cu de alguém', '2024\5\29', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'ce sabia que cárcere de ave é proibido? libera a piriquita ai', '2024\5\28', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT '[NORMAL] Jerk Off pp 10/10', '2024\5\24', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'AEOOOO desenhei uma mão e se parece com uma mão', '2024\5\23', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'eu quelo comer metagranitos', '2024\5\21', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT ' "ain, chupar água da calcinha no varal é coisa de gente feia" eu sendo horrorosa:', '2024\5\20', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT ' "Veni Vidi Vixi" - Júlio César', '2024\5\20', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'a gente ttem que se matar', '2024\5\14', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'biri bibiri, biri bibaro, transformo vc num largo', '2024\5\13', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT '-Freud', '2024\5\12', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'mete marcha, mete a pica, mete a lingua no meu cu, me pega pelos cabelos, depois chupa meu piru', '2024\5\12', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'sim amigo, sou programador, me especializo nas linguagens PEITON, XANASCRIPT e PL/SQL (PERERECAS LARGAS, SÓ QUERO LAMBER)  O_o ', '2024\5\12', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'ou essa versão da história', '2024\5\12', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'QUANDO ESTÁS NA XAROCA E À PIÇA SALTA FORA E BATE VIOLENTAMENTE CONTRA A NALGA = parnasianismo dos memes', '2024\5\9', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'Depende do signo do bb', '2024\5\7', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'sometimes batata palha com ketchup is janta', '2024\4\26', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'BLJ na costela do viado', '2024\4\25', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'Stelytle -> Santo Elytle', '2024\4\24', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'Interjeição é o reino protista das classes gramaticais.', '2024\4\24', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'VC PREFERIRIA: Um filho gay vs Sopinha de tomate hummmnn', '2024\4\24', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'curirica é o BLJ do sexo', '2024\4\24', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'Perna de perereca, cabeça de pirulito, faz com que essa novinha me dê o priquito', '2024\4\23', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'Toda vez eu vou escrever @pep e sai @pqp', '2024\4\23', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'OS BEATLES, Jingo, Ringo, Pingo e Gingo', '2024\4\22', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'EU E MEU PARÇA NOS Escondendo no brinquedo da Anitta', '2024\4\22', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'disse a fundação', '2024\4\12', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'AYOOOO #Mijo', '2024\4\12', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'Boca de piscininha', '2024\4\12', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'sugestão de alongamento = abrir os glúteos com as palmas das mãos bem esticado', '2024\4\12', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'sdds da época dos funks de adverbio de modo', '2024\4\12', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'Patrick got the bong de caveira', '2024\4\10', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'bigodão de varrer xereca', '2024\4\10', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'tinha sturdy', '2024\4\9', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT '#PARTIU #LOLLAPAUZUDA2024', '2024\4\9', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'é oficial, abalou as placas cucetônicas', '2024\4\8', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT '@pepfefeusson eu encontro tua casa e deslizo uma palca de gelo de mijo por baixo da tua porta', '2024\4\8', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT ' :( dano neutro  :)  dane', '2024\4\5', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'OLA EU GOSTO DE SIRIRICA', '2024\4\4', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'choveu = Claro sentando de joelhos com o cuzinho úmido n antena de internet', '2024\4\4', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'tu habilidade bufa', '2024\3\25', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'voltei, fiz um bolo sem querer', '2024\3\25', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'eu nao █████ um swampert', '2024\3\25', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'eu acho que o adolescente medio é exposto a pornografias mais istantes hoje em dia', '2024\3\25', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'estágios do luto: negação: (tu gira.); raiva (GIRA!); barganha (tu gira?); depressão (girava...); aceitação (tu não gira)', '2024\3\22', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'tu tem um tato pra atrair sulista e viado no chat sensacional, streamer', '2024\3\4', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'sera que consigo reembolso de gental jousting?', '2024\3\4', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'Agora um mico: leão dourado', '2024\3\4', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'encontrando o ponto g do peido braçal', '2024\3\4', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'depois de uma noite de ██████ e conversa com colegas da faculdade, eu anotei no google keep "Henry Ford = Tom Nook", e eu NAO LEMBRO quala reflexão que eu tive pra "fazer essa correlação"', '2024\3\4', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'daí sla, o lula, o mandela, o tom nook e o long man', '2024\3\4', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'eu na moleira do nenê (faz crec)', '2024\3\4', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'SEIOS', '2024\3\4', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+ INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'Itaquaquecetuba - SP', '2024\3\1', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+ INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'o after é onde?', '2024\3\1', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+ INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'oi gente, boa noite R) parem de me xingar nos comentários que vcs não me conhecem ;P <3 , vcs nao sabem como eu sou, quem eu sou, vcs nem moram aonde eu moro vai se foder todo mundo :/ O_o :( :O , vai tomar no meio do cu caralho, XIU :| :| :| tou brava >( >( >(', '2024\3\1', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'PUTA QUE PARIU reativei meu facebook, fudeu', '2024\3\1', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'NU, instalou um punhetron3000 no pip boy', '2024\2\27', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'xoxota.rar', '2024\2\26', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'Assunto: lutar contra uma galinha toda vez que tiver que entrar num carro ou vencer no TCG pokémon contra o Nietzsche ?', '2024\2\26', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'apaguei o vape na tua cabeça (quebr', '2024\2\23', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'é meu cu que te da tchau', '2024\2\23', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'TRES TETAS INDIVIDUAIS', '2024\2\23', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'que ódio, eu ja ouvi discografia de tipo, 7 delas ali', '2024\2\19', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'não é como se eu fosse professor de humanas', '2024\2\19', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'pensei que tava começando a tocar elis regina ... é sonic', '2024\2\19', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'pelado e de suspensório me sinto o chaves', '2024\2\12', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'A firmeza da minha sanidade - Foucault', '2024\2\12', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT '09/02 tatuar un qrcode para pudim.com.br', '2024\2\12', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT '08/02 Nóis Chupa Rabo', '2024\2\12', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'sujeitos a rola e ovo', '2024\2\3', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'nenhuma destes termos estão na bíblia', '2024\2\3', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'preciso de alguem rosa pra bater', '2024\2\3', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'tu sabe ta radical quando te pedem pra nao usar desodorante', '2024\2\3', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'ciro nao é personagem de touhou? a de gelo', '2024\2\2', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'placas bucetonicas aqui', '2024\2\2', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'PERA EU TENHO UMA IMAGEM PRA ISSO', '2024\2\2', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('ciroel');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'musica peidosa', '2024\1\26', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'ah meu, o gato do schwarzenegger', '2024\1\26', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'A Travestis - Murro na Costela do Viado', '2024\1\25', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'AYOOO @Estileto abre duas instancias do emulador, joga ambas, mas diz que uma é o raul', '2024\1\24', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT '!apoia e !atrapalha', '2024\1\23', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'HMMMMmm batata da perna *mastiga milimetricamente', '2024\1\23', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'onde o sanduiche de buceta entre no alinhamento moral?', '2024\1\22', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'eu vou dar meu cuuuu,e o meu chimarrããaao', '2024\1\22', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'pisque o cu rapidamente 120bpm', '2024\1\22', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'Vidrinho Summon Spell necronominom pesquisar', '2024\1\22', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'musica de roubar o bolo da vizinha que ta comicamente esfriando na janela', '2024\1\22', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'vou te pagar uma pizza pra tu me liberar um excel disso quando chegar em 100', '2024\1\22', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'NFT = Nóis Fuma Tora', '2024\1\19', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'o Tabuu ouvindo Tom Jobin antes dos eventos de Smash Brawl', '2024\1\19', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT '[Emoji de pato] <-- TADINHO', '2024\1\18', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'vai começar a lactação', '2024\1\17', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'anal giratório no skate', '2024\1\16', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'fallout nv unlock mamar o cesar dialogo choice pesquisar', '2024\1\16', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'SUGADELA TUPI GUARANÍTICA', '2024\1\15', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'URGENTE [alerta][alerta][alerta] FOI ENCONTRADO O PRIMEIRO CASO DE EBOLA EM SÃO PAULO  :O  :O  :O  :O  :O  :O  :O  :O  :O  :O  :O  :O  :O  :O  EBOLA NA REDE DO SÃO PAULO KKKKKKKKKKKKKKKKKK', '2024\1\15', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'um cunete crash bandicoot?', '2024\1\15', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'sucatta = boquete em italiano', '2024\1\12', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'Louro josé morreu em 2020, mr house nasceu em 2020, bem vindo de volta louro jose', '2024\1\12', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'Lula, por favor, libere o webnamoro', '2024\1\12', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'Raul é mto sub mds', '2024\1\12', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'usa o raul igual knuckles chaotix', '2024\1\12', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'D-I-V-I-R-T-A-S-E [menina]Pai to indo na festa. [homem]Cê vai beber? [menina]Não. [homem]Vai fumar? [menina]Não. [homem]Vai usar droga? [menina]Não. [homem]Vai transar? [menina]Não. [homem]Então fica em casa, Caraii...  :D  :D  :D  :D  :D ', '2024\1\5', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'vo comer brita', '2024\1\5', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'baly é mijo o hulk = pepsi é adoçada com feto', '2024\1\4', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'Deus da Bíblia™ ©Marvel', '2024\1\4', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'a mente neurodivergente funciona em modos', '2024\1\2', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'todo mundo tem pereba, só o austronauta que nao tem', '2024\1\2', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'CAUTION risk of gabiru attack', '2024\1\2', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'tu MIL POR CENTO vai mandar uns cueca cuela quando for pra italia', '2024\1\2', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'tirou minha kalsinha e meteu o GAMEPLAY DE DUOLINGO', '2024\1\2', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'batom de bigode = oral em cola branca', '2024\1\1', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'essa vai pra video cassetadas', '2023\12\29', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'remix do murro na costela do viado', '2023\12\29', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'eu amor meus amigors no conputador', '2023\12\21', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'eu tirei uma nude tão bonita [+18][+18]100% mas não tenho pra quem mandar  :(  :(  :(  a nude  ;P ;P ;P uma foto do meu pauzão  um retrato do meu rabo  [pessego] [pessego] [pessego] num posso postar aqui né  :(  </3  a nude  R)  foto minha [o/] pelado [Grrr] será que alguém vai pedir pra ver? hmn hmn :) vou me oferecer aqui  ;P ', '2023\12\14', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'deixa o Cucetinha PELADO AGR', '2023\12\14', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'proximo fallout eles vao adicionar mulheres aí ta perdido', '2023\12\12', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'cusex - ele é liberal', '2023\12\1', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'os peitinho amadeirados do Geno, O Boneco', '2023\12\1', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'falando em eu, meu kbelo ta mto foda', '2023\11\30', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'Josoaldo Jéssico.', '2023\11\28', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'João, o Pede Picão :biting_lip: :biting_lip: :biting_lip: :biting_lip:', '2023\11\24', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'JOÃO E O PÉ DE PICÃO', '2023\11\24', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'bom diaaa sou novo grupo , vendo perfumes da Hinode e vende tênis Masculinos e feminino , se alguém tiver interesse chamar PV .... obrigado pela atenção se eu infligir alguma regra peço que os Adms me chamem antes de remover ...', '2023  \11\24', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'tom e jerry poderiam ter feito algo MUITO engraçado na tua escola', '24/11/2023', id_mods FROM  tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+INSERT INTO tb_cucetinha(mensagem, data, id_mods) SELECT 'tu nao é gay só pq nao chupa piroca pq meua migo', '2023/11/24', id_mods FROM tb_mods WHERE LOWER(nome) = LOWER('pepfefeusson');
+
+COMMIT;
