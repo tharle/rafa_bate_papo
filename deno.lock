@@ -11,6 +11,8 @@
   "workspace": {
     "packageJson": {
       "dependencies": [
+        "npm:@netlify/neon@~0.1.2",
+        "npm:dotenv@^17.2.4",
         "npm:google-spreadsheet@^5.0.2"
       ]
     }

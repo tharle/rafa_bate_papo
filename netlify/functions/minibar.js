@@ -7,7 +7,12 @@ exports.handler = async function (event, context) {
     try {
 
         if(id) {
-            const result = await sql`SELECT * FROM tb_mini_bar WHERE id_mini_bar = ${id} LIMIT 1; `;
+            const result = await sql`SELECT id_mini_bar, descricao, ingredientes, referencia,
+                                        CASE
+                                            WHEN homenagem IS NULL THEN 'Ninguém'
+                                            ELSE homenagem
+                                        END AS homenagem
+                                    FROM tb_mini_bar WHERE id_mini_bar = ${id} LIMIT 1; `;
             var mensagem = '';
 
             if(result.length > 0){
@@ -16,6 +21,7 @@ exports.handler = async function (event, context) {
                 mensagem += "\n                     INGREDIENTES\n";
                 mensagem += "\n----------------------------------------------------------------\n";
                 mensagem += result[0].ingredientes.replaceAll(', ', '\n');
+                mensagem += "\n\nHomenagem à "+result[0].homenagem+" \n";
                 mensagem += "\n\nRef: "+result[0].referencia+" \n";
                 mensagem += "\n----------------------------------------------------------------\n";
             } else {
